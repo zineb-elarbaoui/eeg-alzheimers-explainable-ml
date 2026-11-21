@@ -1,0 +1,6 @@
+,Ridge Logistic,ElasticNet Logistic,Linear SVM,Shrinkage LDA,Univariate AUC
+Ridge Logistic,20.0,16.0,18.0,18.0,5.0
+ElasticNet Logistic,16.0,20.0,16.0,16.0,7.0
+Linear SVM,18.0,16.0,20.0,18.0,6.0
+Shrinkage LDA,18.0,16.0,18.0,20.0,6.0
+Univariate AUC,5.0,7.0,6.0,6.0,20.0

@@ -1,0 +1,13 @@
+data/
+ds004504/
+*.set
+*.fdt
+*.edf
+outputs/epochs/
+*.npy
+*.npz
+*.pkl
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
