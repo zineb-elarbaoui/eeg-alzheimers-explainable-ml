@@ -202,28 +202,16 @@ These results are in line with what has been reported for small-sample EEG class
 - Only 19 channels; ASR/ICA cleaning was done upstream by the dataset authors; the fixed 60 s cut does not control for drowsiness.
 - Demographic checks cover age and sex only.
 - Selected features describe the models' learned patterns, not validated biomarkers.
-## Project status
- 
-- **Done:** Steps 1-9.
-- **Open items before the write-up (Step 10):**
-  - Inspect paired-bootstrap intervals for the *k* sweep.
-  - Verify that seed settings actually reach the solvers.
-  - Compute chance baselines for group-level Jaccard values.
-- **Possible extensions:** Random Forest and XGBoost (a short pilot gave AUC 0.830 and 0.839, versus 0.851-0.882 for the linear models), deep learning, uncertainty quantification and calibration, and connectivity features.
+
 ## References
  
 - Shen L, Tong W, Zhao Y, Wu B, Zhang P, Kan J (2026). Explainable machine learning for Alzheimer's disease characterization using small-sample EEG data. *Frontiers in Aging Neuroscience*, 18, 1900857. (Methodological framework this pipeline is built on.)
 - Miltiadous A, et al. (2023). A dataset of scalp EEG recordings of Alzheimer's disease, frontotemporal dementia and healthy subjects from routine EEG. *Data*, 8(6), 95.
 - Bandt C, Pompe B (2002). Permutation entropy: a natural complexity measure for time series. *Physical Review Letters*, 88, 174102.
 - Welch PD (1967). The use of fast Fourier transform for the estimation of power spectra. *IEEE Transactions on Audio and Electroacoustics*, 15, 70-73.
-## Acknowledgements
- 
-Supervised by Prof. Diego. Dataset by Miltiadous et al. (OpenNeuro ds004504).
+
  
 ## Author
  
 Zineb, Data Engineering & AI, ENSA Safi.
  
-## License
- 
-_Add a license (e.g., MIT) before publishing._
